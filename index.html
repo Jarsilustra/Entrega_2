@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
         <div>
           <nav>
             <a href="#biografia">Biografía</a>
-            <a href="#informacion">Información</a>
+            <a href="#hobbies">Pasatiempos y Hobbies</a>
             <a href="#formulario">Formulario</a>
             <a href="#contacto">Contacto</a>
           </nav>
@@ -27,7 +27,6 @@
             <p><strong>Ciudad de nacimiento:</strong> Cali - Colombia.</p>
             <p><strong>Profesión:</strong> Diseñador gráfico - Ilustrador.</p>
             <p><strong>Acerca de mí:</strong></p>
-            <br>
             <p>Gracias al diseño he podido encontrar como el diseño nos rodea, así donde miremos encontraremos 
                 como una estructura hasta el camino por donde vamos contiene un diseño, el diseño grafico como 
                 vocación me ha ayudado ver que es un fuerte que he querido buscar explotar y poder llegar a 
@@ -38,14 +37,104 @@
             <div class="info2">
             <h2>Fotografía</h2>
             <figure>
-                <figcaption>
-                    <img src="" alt="">
-                </figcaption>
+                <img src="Imagenes/-ugqexr.jpg" alt="Foto biografia">
+                <figcaption>Foto personal.</figcaption>
             </figure>
             </div>
             <br>
             <button><a href="#inicio">Ir al inicio</a></button>
         </div>
     </main>
+    <br>
+    <section id="hobbies"></section>
+        <div class="table">
+            <h2>Pasatiempos y Hobbies</h2>
+            <div class="item1">
+                <ol type="I">
+                    <h4>Tareas pendientes</h4>
+                    <li>Terminar el curso de programación</li>
+                    <li>Organizar mi habitación</li>
+                    <li>Jugar Baloncesto con los amigos el Sábado</li>
+                </ol>
+                <ul>
+                    <h4>Actividades favoritas</h4>
+                    <li>Jugar videojuegos</li>
+                    <li>Salir a trotar</li>
+                    <li>Dormir hasta tarde los fines de semana</li>
+                </ul>
+            </div>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tareas pendientes</th>
+                        <th>Días disponibles</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Terminar el curso</td>
+                        <td>Lun - Vie</td>
+                        <td>2:30 a 5:30 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td>Organizar habitación</td>
+                        <td>Dom</td>
+                        <td>Todo el día</td>
+                    </tr>
+                    <tr>
+                        <td>Jugar Baloncesto</td>
+                        <td>Sab</td>
+                        <td>4:00 p.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <button><a href="#inicio">Ir al inicio</a></button>
+    </section>
+    <br>
+    <section id="formulario">
+        <div class="item2">
+            <h2>Formulario</h2>
+            <br>
+            <form action="Registro" method="post">
+                <fieldset>
+                    <legend>Deja tu mensaje:</legend>
+                    <p>¡Si tienes alguna inquietud, deja tu mensaje y pronto lo responderé!</p>
+                    <br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50">
+                    <br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required minlength="3" maxlength="50">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <input type="text" id="mensaje" name="mensaje" maxlength="200">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </div>
+        <button><a href="#inicio">Ir al inicio</a></button>
+    </section>
+    <br>
+    <section id="contacto">
+        <div class="item3">
+            <footer>
+            <h2>Contacto</h2>
+            <p>Tel:<a href="tel:3235821554"> 323 582 1554</a></p>
+            <p>Email:<a href="mailto:andrews8810@gmail.com"> andrewws8810@gmail.com</a></p>
+            </footer>
+        </div>
+        <button><a href="#inicio">Ir al inicio</a></button>
+    </section>
+    <br>
 </body>
 </html>
