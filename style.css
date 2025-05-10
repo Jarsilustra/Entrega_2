@@ -11,6 +11,7 @@ h1{
     margin: 0px 0px 0px 0px;
     padding: 50px
 }
+
 nav{
     background-color: #FCA311;
     color: #000000;
@@ -19,12 +20,19 @@ nav{
     margin: 0px 0px 0px 0px;
     padding: 20px;
 }
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
 nav a:hover{
     background-color: #ffffff;
     color: black;
     border-radius: 4px;
     padding: 10px;
   }
+
 h2{
     font-family: "Cal Sans", sans-serif;
     background-color: #000000;
@@ -33,10 +41,12 @@ h2{
     margin: 0px 0px 0px 0px;
     padding: 20px
 }
+
 img{
     width: 480px;
     height: 480px;
 }
+
 .contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -57,19 +67,81 @@ img{
     margin: 30px 30px 30px 70px;
     padding: 10px 10px 10px 10px;
   }
+
 p{
     font-family: "Open Sans", sans-serif;
     text-align: justify;
-    margin: 40px;
-
+    margin: 20px;
 }
+
 figcaption{
     font-family: "Open Sans", sans-serif;
 }
+
+.lista{
+    display: flex;
+    gap: 10px;
+}
+
+h4{
+    font-family: "Cal Sans", sans-serif;
+    background-color: #fca311;
+    text-align: center;
+}
+
+ol, ul {
+    margin: 20px;
+    padding: 0 250px;
+  }
+li{
+    font-family: "Open Sans", sans-serif;
+}
+
+.tabla{
+  width: 40%;
+  display: grid;
+  text-align: center;
+  margin: auto;
+}
+
+thead{
+    font-family: "Open Sans", sans-serif;
+    background-color: #fca311;
+}
+tbody{
+    font-family: "Open Sans", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.form{
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    background-color: #fca311;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+}
+label {
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
 .boton{
     display: grid;
 }
-button{
+  button{
     background-color: #000000;
     font-family: "Cal Sans", sans-serif;
     font-size: 20px;
@@ -79,3 +151,29 @@ button{
     margin: 0px 0px 0px 44%;
     padding: 20px;
   }
+
+.botones-formulario {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-contacto {
+  background-color: #fca311;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  font-family: "Cal Sans", sans-serif;
+  font-size: 16px;
+}
+
+.footer-contacto a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-contacto a:hover {
+  background-color: #ffffff;
+  text-decoration: underline;
+}
