@@ -143,6 +143,11 @@ input {
     margin-top: 10px;
 }
 
+#resultado{
+  color: green;
+  margin-top: 20px;
+  font-weight: bold;
+}
 .boton{
     display: grid;
 }
