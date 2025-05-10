@@ -138,6 +138,11 @@ input {
     border-radius: 5px;
 }
 
+#errores{
+    color: red;
+    margin-top: 10px;
+}
+
 .boton{
     display: grid;
 }
